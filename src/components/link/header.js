@@ -8,10 +8,13 @@ const HeaderStyle = styled.header`
       position: fixed;
       top: 0;
       display: block;
-      width: 100%;
+      width: auto;
       color: #333;
       padding: 10px 0;
-      z-index: 999;
+      z-index: 888;
+      @media only screen and (max-width: 740px) {
+        display: none;
+      }
 `;
 const HeaderStyleUl = styled.ul`
       display: flex;

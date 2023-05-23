@@ -13,6 +13,7 @@ const CalendarHeaderStyle = styled.section`
       background: #f5f5f5;
       display: flex;
       justify-content: flex-end;
+      z-index: 999;
 `;
 const CalendarBox = styled.div`
       width: 90%;
